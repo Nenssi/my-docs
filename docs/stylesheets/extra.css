@@ -39,7 +39,12 @@ article img {
     display: none !important;
 }
 
-ul.nav.navbar-nav:nth-child(2) { display: none !important; }
+ul.nav.navbar-nav.ms-md-auto {
+    display: none !important;
+}
+
+/* Если мы все же добавим переключатель в nav, он появится в левой части, 
+   и эти кнопки мешать не будут */
 
 /* Растягиваем блок с контентом на все 12 колонок (100% ширины) */
 .col-md-9 {
