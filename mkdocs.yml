@@ -36,5 +36,5 @@ nav:
   - '🌐 Language':
       # - '🇺🇦 Українська': 'http://127.0.0.1:8000/'
       # - 'en English': 'http://127.0.0.1:8000/en/'
-      - 'ua Українська': '/'
-      - 'en English': '/en/'
+      - '🇺🇦 Українська': 'index.md'
+      - 'en English': 'en/index.md'
