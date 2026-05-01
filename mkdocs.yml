@@ -1,0 +1,38 @@
+site_name: Sql розробка та аналітика
+
+theme:
+  name: bootstrap
+  custom_dir: overrides
+  highlightjs: true
+  add_sidebar: false
+  favicon: assets/favicon.png
+  use_directory_urls: true
+  
+repo_name: My SQL Scripts
+# repo_url: https://github.com/Nenssi/my-sql-docs
+# copyright: '© 2026 Oksana Kosinova. SQL Developer Portfolio.'
+
+extra_css:
+  - stylesheets/extra.css
+
+plugins:
+  - search
+  - i18n:
+      default_language: uk
+      languages:
+        - locale: uk
+          name: Українська
+          site_name: Sql розробка та аналітика
+          default: true
+        - locale: en
+          name: English 
+          site_name: SQL Development and Analytics
+  
+nav:
+  - index.md
+  - about.md
+  - sql_scripts.md
+  - contact.md
+  - '🌐 Language':
+      - '🇺🇦 Українська': 'http://127.0.0.1:8000/'
+      - 'en English': 'http://127.0.0.1:8000/en/'

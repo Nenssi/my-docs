@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+    {{ super() }}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+{% endblock %}
+
+{# Мы переопределяем блок, который отвечает за подвал #}
+{% block footer %}
+    <div class="custom-footer" style="margin-top: 50px; padding: 30px; text-align: center; background-color: #f8f8f8; border-top: 1px solid #ddd; width: 100%;">
+        <div class="social-links" style="margin-bottom: 15px;">
+            <a href="https://t.me/Nenssi7" target="_blank" style="margin: 0 20px; font-size: 35px; color: #337ab7;"><i class="fa fa-telegram"></i></a>
+            <a href="https://github.com/Nenssi" target="_blank" style="margin: 0 20px; font-size: 35px; color: #333;"><i class="fa fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/oksana-bespalova-3b7b9a376/" target="_blank" style="margin: 0 20px; font-size: 35px; color: #0077b5;"><i class="fa fa-linkedin"></i></a>
+        </div>
+        <p style="font-size: 16px; color: #666;">© 2026 Oksana Kosinova. SQL Developer Portfolio.</p>
+    </div>
+{% endblock %}
