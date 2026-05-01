@@ -34,5 +34,7 @@ nav:
   - sql_scripts.md
   - contact.md
   - '🌐 Language':
-      - '🇺🇦 Українська': 'http://127.0.0.1:8000/'
-      - 'en English': 'http://127.0.0.1:8000/en/'
+      # - '🇺🇦 Українська': 'http://127.0.0.1:8000/'
+      # - 'en English': 'http://127.0.0.1:8000/en/'
+      - 'ua Українська': '/'
+      - 'en English': '/en/'
