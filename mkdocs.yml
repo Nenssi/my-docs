@@ -37,4 +37,4 @@ nav:
       # - '🇺🇦 Українська': 'http://127.0.0.1:8000/'
       # - 'en English': 'http://127.0.0.1:8000/en/'
       - '🇺🇦 Українська': 'index.md'
-      - 'en English': 'index.en.md'
+      - 'en English': 'en/'
