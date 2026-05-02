@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>None./</loc>
+        <lastmod>2026-05-02</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="uk" href="None"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/"/>
+    </url>
+    <url>
+        <loc>Noneabout/</loc>
+        <lastmod>2026-05-02</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneabout/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/about/"/>
+    </url>
+    <url>
+        <loc>Nonecontact/</loc>
+        <lastmod>2026-05-02</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="uk" href="Nonecontact/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/contact/"/>
+    </url>
+    <url>
+        <loc>Nonesql_scripts/</loc>
+        <lastmod>2026-05-02</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="uk" href="Nonesql_scripts/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/sql_scripts/"/>
+    </url>
+    <url>
+        <loc>Nonesql_posts/add_column/</loc>
+        <lastmod>2026-05-02</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="uk" href="Nonesql_posts/add_column/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/sql_posts/add_column/"/>
+    </url>
+    <url>
+        <loc>Nonesql_posts/optimization/</loc>
+        <lastmod>2026-05-02</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="uk" href="Nonesql_posts/optimization/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/sql_posts/optimization/"/>
+    </url>
+    <url>
+        <loc>Noneen/about/</loc>
+        <lastmod>2026-05-02</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/about/"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneabout/"/>
+    </url>
+    <url>
+        <loc>Noneen/contact/</loc>
+        <lastmod>2026-05-02</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/contact/"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Nonecontact/"/>
+    </url>
+    <url>
+        <loc>Noneen/</loc>
+        <lastmod>2026-05-02</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="None"/>
+    </url>
+    <url>
+        <loc>Noneen/sql_scripts/</loc>
+        <lastmod>2026-05-02</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/sql_scripts/"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Nonesql_scripts/"/>
+    </url>
+    <url>
+        <loc>Noneen/sql_posts/add_column/</loc>
+        <lastmod>2026-05-02</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/sql_posts/add_column/"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Nonesql_posts/add_column/"/>
+    </url>
+    <url>
+        <loc>Noneen/sql_posts/optimization/</loc>
+        <lastmod>2026-05-02</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/sql_posts/optimization/"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Nonesql_posts/optimization/"/>
+    </url>
+</urlset>

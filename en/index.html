@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Home - SQL Development and Analytics</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../css/brands.min.css" rel="stylesheet">
+        <link href="../css/solid.min.css" rel="stylesheet">
+        <link href="../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <link href="../stylesheets/extra.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script>
+     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="./">SQL Development and Analytics</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href="./" class="nav-link active" aria-current="page">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="about/" class="nav-link">About me</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="sql_scripts/" class="nav-link">Posts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="contact/" class="nav-link">Contact</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">🌐 Language</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="https://nenssi.github.io/my-docs/" class="dropdown-item">🇺🇦 Українська</a>
+</li>
+                                    
+<li>
+    <a href="https://nenssi.github.io/my-docs/en/" class="dropdown-item">🇺🇸 English</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" class="nav-link disabled">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="about/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<div class="container mt-1">
+    <div class="row">
+        <div class="col-12">
+            <!-- Основной баннер -->
+            <div style="
+                background-image: linear-gradient(rgba(0,0,0,0.76), rgba(0,0,0,0.76)), url('../assets/hero-bg.jpg');
+                background-size: cover;
+                background-position: center;
+                border-radius: 15px;
+                padding: 40px 30px;
+                color: white;
+                box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            ">
+                <div style="display: flex; flex-wrap: wrap; align-items: center;">
+
+                    <!-- Блок 1: Фото (20%) -->
+                    <div style="flex: 0 0 20%; max-width: 20%; text-align: center; padding: 10px;">
+                        <img src="../assets/images/oksana.png" alt="Oksana Kosinova" style="
+                            width: 100%; 
+                            max-width: 180px; 
+                            height: auto; 
+                            border-radius: 50%; 
+                            border: 3px solid rgba(255,255,255,0.3);
+                            display: block;
+                            margin: 0 auto 10px;
+                        ">
+                    </div>
+
+                    <!-- Блок 2: Текст услуг (80%) -->
+                    <div style="flex: 0 0 80%; max-width: 80%; padding-left: 25px;">
+                        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 15px; font-size: 0.95rem; line-height: 1.4;">
+
+                        <div>
+                            <strong style="color: #a4deab; display: block; margin-bottom: 3px;">🛠 DB Design & Architecture</strong>
+                            Schema design (ER diagrams), normalization for efficiency, and relationship configuration.
+                        </div>
+
+                        <div>
+                            <strong style="color: #a4deab; display: block; margin-bottom: 3px;">📜 SQL Development</strong>
+                            Writing complex queries (SELECT, JOIN, subqueries) for precise data retrieval.
+                        </div>
+
+                        <div>
+                            <strong style="color: #a4deab; display: block; margin-bottom: 3px;">⚙️ DB Objects Creation</strong>
+                            Tables, indexes, views, triggers, and stored procedures development.
+                        </div>
+
+                        <div>
+                            <strong style="color: #a4deab; display: block; margin-bottom: 3px;">⚡ Query Optimization</strong>
+                            Analysis and acceleration of slow queries, index optimization for Big Data workloads.
+                        </div>
+
+                        <div>
+                            <strong style="color: #a4deab; display: block; margin-bottom: 3px;">🧩 ETL/ELT Processes</strong>
+                            Developing scripts for data extraction, transformation, and loading from diverse sources.
+                        </div>
+
+                        <div>
+                            <strong style="color: #a4deab; display: block; margin-bottom: 3px;">📊 Analytical Functions</strong>
+                            Advanced use of window functions (ROW_NUMBER, LEAD/LAG, OVER) for complex calculations.
+                        </div>
+
+                        <div>
+                            <strong style="color: #a4deab; display: block; margin-bottom: 3px;">📈 Business Intelligence (BI)</strong>
+                            Transforming raw data into reports for visualization in Power BI and Tableau.
+                        </div>
+
+                        <div>
+                            <strong style="color: #a4deab; display: block; margin-bottom: 3px;">🔍 Deep Data Analysis</strong>
+                            Pattern discovery, trend analysis, and customer segmentation to find data insights.
+                        </div>
+
+                        </div>
+                    </div>
+                    <!-- Конец блоков -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+    <div class="custom-footer" style="margin-top: 50px; padding: 30px; text-align: center; background-color: #f8f8f8; border-top: 1px solid #ddd; width: 100%;">
+        <div class="social-links" style="margin-bottom: 15px;">
+            <a href="https://t.me/Nenssi7" target="_blank" style="margin: 0 20px; font-size: 35px; color: #337ab7;"><i class="fa fa-telegram"></i></a>
+            <a href="https://github.com/Nenssi" target="_blank" style="margin: 0 20px; font-size: 35px; color: #333;"><i class="fa fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/oksana-bespalova-3b7b9a376/" target="_blank" style="margin: 0 20px; font-size: 35px; color: #0077b5;"><i class="fa fa-linkedin"></i></a>
+        </div>
+        <p style="font-size: 16px; color: #666;">© 2026 Oksana Kosinova. SQL Developer Portfolio.</p>
+    </div>
+
+        </footer>
+        <script src="../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js"></script>
+        <script src="../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

@@ -1,0 +1,160 @@
+/* Убираем отступ слева и растягиваем контент */
+.col-md-3 {
+    display: none; /* Прячем колонку с кнопкой */
+}
+.col-md-9 {
+    width: 100%; /* Растягиваем основную часть на всю ширину */
+}
+
+/* 1. Растягиваем контейнер шапки и контента на всю ширину */
+.container {
+    max-width: none !important;
+	margin-top: 1px !important;
+	
+}
+/* Убираем внутренние отступы у контейнера, чтобы картинка прилипла к краям */
+.container {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    width: 99% !important; 
+}
+
+/* 2. Сдвигаем навигационные ссылки вправо */
+.navbar-nav {
+    float: right !important;
+}
+
+/* 3. Растягиваем баннер (картинку) */
+/* Если баннер — это img в контенте */
+article img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Немного скруглим углы для мягкости */
+}
+
+/* Скрываем стрелочки и ссылки навигации */
+.nav li a i.fa-arrow-left, 
+.nav li a i.fa-arrow-right,
+.nav li a[href*="github.com"] {
+    display: none !important;
+}
+
+ul.nav.navbar-nav.ms-md-auto {
+    display: none !important;
+}
+
+/* Если мы все же добавим переключатель в nav, он появится в левой части, 
+   и эти кнопки мешать не будут */
+
+/* Растягиваем блок с контентом на все 12 колонок (100% ширины) */
+.col-md-9 {
+    width: 100% !important;
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+}
+
+/* На всякий случай скрываем правую пустую колонку, если она создается темой */
+.col-md-3 {
+    display: none !important;
+}
+
+
+
+/* Сдвигаем основной список меню вправо */
+.navbar-nav:first-child {
+    display: flex !important;
+    width: 100%;
+    justify-content: flex-end; /* Выравнивание по правому краю */
+}
+
+/* Убираем лишние отступы, чтобы меню прижалось плотнее к краю */
+.navbar-collapse {
+    padding-right: 0 !important;
+}
+
+/* Если ссылки слишком близко друг к другу, добавим им немного воздуха */
+.navbar-nav > li > a {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+/* Вставляем логотип перед названием сайта вручную */
+.navbar-brand::before {
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url('../assets/logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+/* Меняем фон всей панели */
+.navbar {
+    background-color: #47604f !important; /* Ваш HEX-код */
+}
+
+/* Если нужно поменять цвет ссылок в меню */
+.navbar .nav-link {
+    color: white !important;
+}
+
+/* Обращаемся к ссылкам в меню Bootstrap */
+.navbar-nav .nav-link {
+    font-family: "Californian FB", "Georgia", serif !important;
+    font-size: 1.1rem; /* Можно немного увеличить размер для этого шрифта */
+}
+
+/* Если нужно изменить шрифт у бренда (названия проекта в меню) */
+.navbar-brand {
+    font-family: "Californian FB", "Georgia", serif !important;
+}
+
+.social-links a:hover {
+    color: #23527c; /* Темнее при наведении */
+}
+
+.footer {
+    padding: 30px 0;
+    background-color: #f8f8f8;
+    border-top: 1px solid #e7e7e7;
+    margin-top: 40px;
+}
+
+.social-links {
+    margin-bottom: 15px;
+}
+
+.social-links a {
+    font-size: 28px;
+    color: #337ab7;
+    margin: 0 20px;
+    text-decoration: none;
+    transition: transform 0.2s, color 0.2s;
+    display: inline-block;
+}
+
+.social-links a:hover {
+    color: #23527c;
+    transform: scale(1.2); 
+}
+
+/* Убираем верхний отступ у основного блока контента */
+article {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+/* Обнуляем отступы у заголовков внутри контента, если они мешают */
+h1, h2 {
+    margin-top: 2px !important;
+}
+
+.force-photo {
+    visibility: visible !important;
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+    max-height: 200px !important;
+}
