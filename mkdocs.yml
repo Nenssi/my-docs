@@ -33,6 +33,6 @@ nav:
   - about.md
   - sql_scripts.md
   - contact.md
-  - '🌐 Мова/Language':
+  - '🌐 Language':
     - '🇺🇦 Українська': 'https://nenssi.github.io/my-docs/'
     - '🇺🇸 English': 'https://nenssi.github.io/my-docs/en/'
