@@ -43,6 +43,7 @@ ul.nav.navbar-nav.ms-md-auto {
     display: none !important;
 }
 
+
 /* Если мы все же добавим переключатель в nav, он появится в левой части, 
    и эти кнопки мешать не будут */
 
@@ -57,8 +58,6 @@ ul.nav.navbar-nav.ms-md-auto {
 .col-md-3 {
     display: none !important;
 }
-
-
 
 /* Сдвигаем основной список меню вправо */
 .navbar-nav:first-child {
@@ -90,6 +89,18 @@ ul.nav.navbar-nav.ms-md-auto {
     vertical-align: middle;
     margin-right: 10px;
 }
+
+/* Уменьшаем размер шрифта названия сайта в навигационной панели */
+.navbar-brand {
+    font-size: 1rem; /* Настрой значение под себя, например 1rem или 18px */
+    font-weight: 500;   /* Можно также изменить жирность, если нужно */
+}
+
+/* Если нужно изменить шрифт у бренда (названия проекта в меню) */
+.navbar-brand {
+    font-family: "Californian FB", "Georgia", serif !important;
+}
+
 /* Меняем фон всей панели */
 .navbar {
     background-color: #47604f !important; /* Ваш HEX-код */
@@ -106,10 +117,7 @@ ul.nav.navbar-nav.ms-md-auto {
     font-size: 1.1rem; /* Можно немного увеличить размер для этого шрифта */
 }
 
-/* Если нужно изменить шрифт у бренда (названия проекта в меню) */
-.navbar-brand {
-    font-family: "Californian FB", "Georgia", serif !important;
-}
+
 
 .social-links a:hover {
     color: #23527c; /* Темнее при наведении */
