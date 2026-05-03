@@ -32,6 +32,7 @@ nav:
   - index.md
   - about.md
   - sql_scripts.md
+  - Hidden: sql_posts/join_optimization.md
   - contact.md
   - '🌐 Language':
     - '🇺🇦 Українська': 'https://nenssi.github.io/my-docs/'

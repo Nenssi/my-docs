@@ -262,3 +262,10 @@ h1, h2 {
     padding-top: 15px;
     display: block;
 }
+
+
+/* Якщо перший варіант не спрацює (залежить від версії Bootstrap), спробуй цей: */
+.navbar-nav li:nth-child(4) { 
+    /* nth-child(4) означає 4-й елемент у списку (Головна, Про мене, Статті, Hidden...) */
+    display: none !important;
+}
