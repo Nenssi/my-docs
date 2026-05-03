@@ -6,7 +6,7 @@ title: Про мене
     <div class="row align-items-center">
         <!-- Левая колонка с текстом и отступом -->
         <div class="col-md-7 ps-md-5"> 
-            <h1 style="font-weight: 800; font-size: 2rem; margin-bottom: 20px; color: #222;">про мене</h1>
+            <h1 style="font-weight: 800; font-size: 2rem; margin-bottom: 20px; color: #222;">Про мене</h1>
             
             <p class="lead" style="font-size: 1.6rem; color: #888; font-weight: 300; line-height: 1.2;">
                 Я – SQL-розробник та аналітик з великим досвідом. Спеціалізуюся на проектуванні складних баз даних та глибокої оптимізації запитів. До вирішення будь-яких технічних проблем підходжу з аналітичним азартом.

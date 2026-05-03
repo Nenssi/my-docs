@@ -6,7 +6,7 @@ title: Контакт
     <div class="row">
         <!-- Левая колонка: Контакты -->
         <div class="col-md-6 ps-md-5">
-            <h1 style="font-weight: 800; font-size: 2rem; margin-bottom: 10px; color: #222;">contacts</h1>
+            <h1 style="font-weight: 800; font-size: 2rem; margin-bottom: 10px; color: #222;">Контакти</h1>
 			
             <p class="mt-1" style="font-style: italic; color: #666; max-width: 400px;">
                 Нагадую, що через глибоке порушення слуху я приймаю дзвінки тільки в режимі повідомлень. Дякую за розуміння!

@@ -36,3 +36,5 @@ nav:
   - '🌐 Language':
     - '🇺🇦 Українська': 'https://nenssi.github.io/my-docs/'
     - '🇺🇸 English': 'https://nenssi.github.io/my-docs/en/'
+    # - '🇺🇦 Українська': 'http://127.0.0.1:8000/'
+    # - '🇺🇸 English': 'http://127.0.0.1:8000/en/'

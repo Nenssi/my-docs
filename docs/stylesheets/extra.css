@@ -166,3 +166,99 @@ h1, h2 {
     height: auto !important;
     max-height: 200px !important;
 }
+
+/* Стили для сетки карточек */
+.article-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+Стиль отдельной карточки
+/* .article-card { */
+    /* background: #ffffff; */
+    /* border: 1px solid #e0e0e0; */
+    /* border-top: 4px solid #A5A5FF; /* Синяя полоска сверху */ */
+    /* padding: 20px; */
+    /* border-radius: 4px; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+    /* transition: transform 0.2s, box-shadow 0.2s; */
+    /* text-decoration: none !important; */
+    /* color: inherit !important; */
+/* } */
+
+/* .article-card:hover { */
+    /* transform: translateY(-5px); */
+    /* box-shadow: 0 10px 20px rgba(0,0,0,0.1); */
+/* } */
+
+/* .article-card h4 { */
+    /* color: #A5A5FF; */
+    /* margin-top: 0; */
+    /* font-size: 1.25rem; */
+/* } */
+
+/* .article-card p { */
+    /* font-size: 0.95rem; */
+    /* color: #555; */
+    /* flex-grow: 1; */
+/* } */
+
+/* .article-link { */
+    /* font-weight: bold; */
+    /* color: #A5A5FF; */
+    /* margin-top: 10px; */
+    /* display: block; */
+/* } */
+
+/* Сетка для карточек */
+.article-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 25px;
+}
+
+/* Обновленная карточка в цвете лаванды */
+.article-card {
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    /* Используем цвет лаванды из image_0b4da4.png */
+    border-top: 4px solid #A5A5FF; 
+    padding: 20px;
+    border-radius: 8px; /* Чуть более скругленные углы выглядят современнее */
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s ease;
+    text-decoration: none !important;
+    color: #333 !important;
+}
+
+.article-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(165, 165, 255, 0.2); /* Тень в тон карточки */
+}
+
+.article-card h4 {
+    /* Цвет заголовка теперь тоже лавандовый */
+    color: #8A8AFF; 
+    margin-top: 0;
+    font-size: 1.3rem;
+}
+
+.article-card p {
+    font-size: 0.95rem;
+    color: #666;
+    line-height: 1.5;
+}
+
+.article-link {
+    font-weight: bold;
+    color: #A5A5FF;
+    margin-top: auto;
+    padding-top: 15px;
+    display: block;
+}
