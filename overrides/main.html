@@ -17,21 +17,29 @@
     </div>
 {% endblock %}
 
+
 {% block scripts %}
     {{ super() }}
     <style>
-        /* Находим контейнер виджета Chatbase и делаем его аккуратным */
-        #chatbase-bubble-window, 
-        iframe[src*="chatbase.co"] {
+        /* Жестко ограничиваем размер самого iframe чата */
+        iframe[src*="chatbase.co"],
+        iframe[id*="chatbase"],
+        div[id*="chatbase"] iframe,
+        .chatbase-bubble-window {
             width: 380px !important;
-            height: 400px !important;
-            max-height: 85vh !important;
+            height: 520px !important;
+            max-height: 80vh !important;
             max-width: 90vw !important;
+            position: fixed !important;
+            bottom: 80px !important;
+            right: 20px !important;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15) !important;
+            border-radius: 12px !important;
         }
     </style>
     
-    <!-- Сюда вставь ТВОЙ чистый скрипт из Chatbase, который ты копировала -->
-  <script>
+    <!-- Твой оригинальный рабочий скрипт из Chatbase пониже -->
+     <script>
 (function(){if(!window.chatbase||window.chatbase("getState")!=="initialized"){window.chatbase=(...arguments)=>{if(!window.chatbase.q){window.chatbase.q=[]}window.chatbase.q.push(arguments)};window.chatbase=new Proxy(window.chatbase,{get(target,prop){if(prop==="q"){return target.q}return(...args)=>target(prop,...args)}})}const onLoad=function(){const script=document.createElement("script");script.src="https://www.chatbase.co/embed.min.js";script.id="WWMPwUAKkUyCGWGnK1lmz";script.domain="www.chatbase.co";document.body.appendChild(script)};if(document.readyState==="complete"){onLoad()}else{window.addEventListener("load",onLoad)}})();
 </script>
 {% endblock %}
