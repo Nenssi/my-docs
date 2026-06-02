@@ -31,14 +31,16 @@
                 voice: {
                   url: "https://runtime-api.voiceflow.com"
                 },
-                /* Настройки внешнего вида и брендинга прямо в коде */
-                theme: {
-                  color: '#2D5A3B' // Твой фирменный зеленый цвет шапки
-                },
-                assistant: {
-                  name: "M.E.Doc Помощник", // Имя, которое будет в шапке
-                  description: "IІ-консультант з автоматизації звітності" // Маленький текст под именем
-                }
+                /* Прямая инъекция стилей, чтобы перебить синий цвет */
+                stylesheet: "https://cdn.voiceflow.com/widget-next/themes/pure-green.css"
+              }).then(() => {
+                /* Подменяем имя в шапке вручную, если Voiceflow его игнорирует */
+                setTimeout(function() {
+                  var headerName = document.querySelector('.v-header-title, .vf-widget-header-title');
+                  if (headerName) {
+                    headerName.textContent = 'M.E.Doc Помощник';
+                  }
+                }, 1000);
               });
             }
           }
