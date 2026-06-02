@@ -19,7 +19,19 @@
 
 {% block scripts %}
     {{ super() }}
-      <script>
+    <style>
+        /* Находим контейнер виджета Chatbase и делаем его аккуратным */
+        #chatbase-bubble-window, 
+        iframe[src*="chatbase.co"] {
+            width: 380px !important;
+            height: 520px !important;
+            max-height: 85vh !important;
+            max-width: 90vw !important;
+        }
+    </style>
+    
+    <!-- Сюда вставь ТВОЙ чистый скрипт из Chatbase, который ты копировала -->
+  <script>
 (function(){if(!window.chatbase||window.chatbase("getState")!=="initialized"){window.chatbase=(...arguments)=>{if(!window.chatbase.q){window.chatbase.q=[]}window.chatbase.q.push(arguments)};window.chatbase=new Proxy(window.chatbase,{get(target,prop){if(prop==="q"){return target.q}return(...args)=>target(prop,...args)}})}const onLoad=function(){const script=document.createElement("script");script.src="https://www.chatbase.co/embed.min.js";script.id="WWMPwUAKkUyCGWGnK1lmz";script.domain="www.chatbase.co";document.body.appendChild(script)};if(document.readyState==="complete"){onLoad()}else{window.addEventListener("load",onLoad)}})();
 </script>
 {% endblock %}
