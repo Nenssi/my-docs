@@ -19,6 +19,7 @@
 
 {% block scripts %}
     {{ super() }}
+    <!-- Official Voiceflow Core 4.0 Web Chat Widget -->
     <script type="text/javascript">
       (function(d, t) {
           var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
@@ -26,10 +27,12 @@
             window.voiceflow.chat.load({
               verify: { projectID: '6a1f1ccc9f948a1ac7645192' },
               url: 'https://general-runtime.voiceflow.com',
-              versionID: 'main' // <-- Передаем алиас твоего живого окружения "main"
+              voice: {
+                url: "https://runtime-api.voiceflow.com"
+              }
             });
           }
-          v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+          v.src = "https://cdn.voiceflow.com/widget-next/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
       })(document, 'script');
     </script>
 {% endblock %}
