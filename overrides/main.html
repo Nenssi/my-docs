@@ -19,19 +19,25 @@
 
 {% block scripts %}
     {{ super() }}
-    <!-- Stable Official Voiceflow Core 4.0 Widget -->
     <script type="text/javascript">
       (function(d, t) {
           var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
           v.onload = function() {
-            // Проверяем, что объект chat существует, чтобы избежать ошибок при перезагрузке
             if (window.voiceflow && window.voiceflow.chat) {
               window.voiceflow.chat.load({
                 verify: { projectID: '6a1f1ccc9f948a1ac7645192' },
                 url: 'https://general-runtime.voiceflow.com',
-                versionID: 'main', // <-- ОБЯЗАТЕЛЬНО возвращаем для стабильности в твоем аккаунте
+                versionID: 'main',
                 voice: {
                   url: "https://runtime-api.voiceflow.com"
+                },
+                /* Настройки внешнего вида и брендинга прямо в коде */
+                theme: {
+                  color: '#2D5A3B' // Твой фирменный зеленый цвет шапки
+                },
+                assistant: {
+                  name: "M.E.Doc Помощник", // Имя, которое будет в шапке
+                  description: "IІ-консультант з автоматизації звітності" // Маленький текст под именем
                 }
               });
             }
